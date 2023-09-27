@@ -31,7 +31,7 @@ export default function FontAndSize() {
 
         // <div className="text-black divide-x-8">
         //     <div>
-                
+
         //     </div>
         //     <div>
         //         01
@@ -48,8 +48,22 @@ export default function FontAndSize() {
 
         // square Width
 
-        <div className="mx-4 bg-red-800 my-[3rem] px-[10px]">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, ipsa aliquam asperiores aliquid ipsam ex commodi! Earum quae, temporibus deleniti qui consequuntur dignissimos?
-        </div>
+        <>
+            <div className="mx-44 bg-red-800 ">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus,ipsa aliquam asperiores aliquid ipsam ex commodi! Earum quae, temporibus deleniti qui consequuntur dignissimos?
+
+                {/* <button type="button" className="btn">Yellow</button> */}
+            </div>
+            <div className="mx-13 text-black max-xs:text-blue-700">
+                this is customize margin
+            </div>
+        </>
+
+        /* <button type="button" className="text-white bg-green-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900">Green</button> */
+        // <div className="m-36">
+        //     <button className="px-4 py-2 bg-purple-800 rounded-md hover:bg-purple-600">
+        //         Submit
+        //     </button>
+        // </div>
     )
 }
