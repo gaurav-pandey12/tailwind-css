@@ -12,7 +12,7 @@ const config: Config = {
         13: '3.3rem'
       },
       screens:{
-        xs:'540px'
+        xs:'640px'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
