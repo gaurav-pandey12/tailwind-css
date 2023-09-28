@@ -14,7 +14,7 @@ export default function MsLandingPage() {
             <div className="text-black flex text-center md:order-1">
                 <div> Microsoft</div>
                 <div>
-                    <ul className="text-black absolute mx-7 md:flex space-x-2">
+                    <ul className="text-black absolute md:static md:mx-7 w-fit md:w-auto bg-gray-400 md:bg-white -translate-x-96 md:translate-x-0 md:flex md:space-x-2">
                         <li>Microsoft 365</li>
                         <li>Teams</li>
                         <li>Windows</li>
