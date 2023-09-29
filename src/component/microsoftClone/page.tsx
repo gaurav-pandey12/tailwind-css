@@ -17,7 +17,6 @@ export default function MsLandingPage() {
                     <div className="flex justify-start">
                         <img className="w-[50%]" src="images/mslogo.png" alt="" />
                     </div>
-
                     <div className="features absolute w-fit md:static text-black md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:items-center md:mx-4 md:space-x-6 -translate-x-96 md:translate-x-0">
                         <div className="fitem hover:underline hover:underline-offset-8 cursor-pointer">Microsoft 365</div>
                         <div className="hover:underline hover:underline-offset-8 cursor-pointer">Office</div>
